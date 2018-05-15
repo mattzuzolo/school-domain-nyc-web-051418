@@ -17,7 +17,7 @@ class School
       #if roster for grade doesn't contain any students, add them as the value
       if @roster[grade] == nil
         @roster[grade] = [name]
-      #if the roster DOES contain student(s), then shovel into array
+      #if the roster DOES contain student(s), then shovel into array that is the value
       else
         @roster[grade] << name
       end
